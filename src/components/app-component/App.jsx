@@ -1,10 +1,10 @@
+import Main from '../mian/Main'
+
 import './style.css'
 
 const App = () => {
   return (
-    <div>
-      Hello world! 
-    </div>
+    <Main />
   )
 }
 
