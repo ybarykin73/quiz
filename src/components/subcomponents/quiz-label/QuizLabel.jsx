@@ -9,7 +9,7 @@ const QuizLabel = (props) => {
   return (
     <label className="quiz-label">
       <input className="quiz-label__input visually-hidden" type="radio" name={name} />
-      <span className="quiz-label__check">question</span>
+      <span className="quiz-label__check">{question}</span>
     </label>
   )
 }
